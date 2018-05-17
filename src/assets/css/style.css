@@ -3,12 +3,15 @@
   height: 100%;
   text-align: center;
   background-color: #03dac4;
+  overflow: auto;
 }
 .list{
   background-color: white;
-  height:100%;
+  min-height: 100%;
+  height:auto;
+  overflow: auto;
 }
-.ui.basic.button{
+.plus-button.ui.basic.button{
   background: #1e88e5!important;
   color: white!important;
   width: 80%;
